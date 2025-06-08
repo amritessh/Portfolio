@@ -4,7 +4,7 @@ export const projects = [
     desc: 'Full-stack online marketplace with payment integration',
     tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     color: 'from-blue-600 to-indigo-600',
-    link: 'https://github.com/yourusername/ecommerce',
+    link: 'https://github.com/amritessh/ecommerce',
     demo: 'https://ecommerce-demo.com'
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     desc: 'Real-time collaborative project management tool',
     tech: ['Next.js', 'Socket.io', 'PostgreSQL'],
     color: 'from-purple-600 to-pink-600',
-    link: 'https://github.com/yourusername/taskmanager',
+    link: 'https://github.com/amritessh/taskmanager',
     demo: 'https://taskmanager-demo.com'
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     desc: 'Data visualization platform for business metrics',
     tech: ['Vue.js', 'D3.js', 'Python', 'FastAPI'],
     color: 'from-green-600 to-teal-600',
-    link: 'https://github.com/yourusername/analytics',
+    link: 'https://github.com/amritessh/analytics',
     demo: 'https://analytics-demo.com'
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     desc: 'Mobile-first social platform with real-time features',
     tech: ['React Native', 'GraphQL', 'AWS'],
     color: 'from-orange-600 to-red-600',
-    link: 'https://github.com/yourusername/social',
+    link: 'https://github.com/amritessh/social',
     demo: 'https://social-demo.com'
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     desc: 'AI-powered content creation and optimization tool',
     tech: ['TypeScript', 'OpenAI API', 'Redis'],
     color: 'from-cyan-600 to-blue-600',
-    link: 'https://github.com/yourusername/ai-content',
+    link: 'https://github.com/amritessh/ai-content',
     demo: 'https://ai-content-demo.com'
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     desc: 'Secure cryptocurrency wallet with DeFi features',
     tech: ['Web3.js', 'Solidity', 'React'],
     color: 'from-indigo-600 to-purple-600',
-    link: 'https://github.com/yourusername/wallet',
+    link: 'https://github.com/amritessh/wallet',
     demo: 'https://wallet-demo.com'
   }
 ];

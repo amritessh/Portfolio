@@ -10,7 +10,7 @@ const ProfileImage = ({ darkMode }) => {
       transition={{ duration: 0.8, delay: 0.2 }}
       className='relative order-1 md:order-2'
     >
-      <div className='relative w-48 h-48 sm:w-56 sm:h-56 mx-auto'>
+      <div className='relative w-60 h-60 sm:w-60 sm:h-60 mx-auto'>
         <div
           className={`absolute inset-0 ${
             darkMode ? 'bg-slate-800' : 'bg-slate-200'
@@ -28,7 +28,7 @@ const ProfileImage = ({ darkMode }) => {
         >
           {/* Replace with actual image */}
           <img
-            src='/path-to-your-image.jpg'
+            src='IMG_4434.jpg'
             alt='Profile'
             className='w-full h-full object-cover'
             onError={(e) => {

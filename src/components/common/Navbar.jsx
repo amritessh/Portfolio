@@ -28,7 +28,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
             className='text-xl font-semibold flex-shrink-0'
           >
             <span className='bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent'>
-              JD
+              Amritesh Anand
             </span>
           </motion.div>
 

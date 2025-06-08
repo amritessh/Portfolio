@@ -23,7 +23,7 @@ const ContactInfo = ({ darkMode }) => {
           <div>
             <p className='font-medium'>Email</p>
             <p className={`${darkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-              john.doe@example.com
+              amriteshanand7@gmail.com
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const ContactInfo = ({ darkMode }) => {
           <div>
             <p className='font-medium'>Location</p>
             <p className={`${darkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-              San Francisco, CA
+              Boston, MA
             </p>
           </div>
         </div>

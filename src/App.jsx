@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Footer from './components/common/Footer';
 import { useDarkMode } from './hooks/useDarkMode';
 import { useScrollspy } from './hooks/useScrollspy';
+import CalendlyBadge from './components/CalendlyBadge';
 
 function App() {
   const [darkMode, toggleDarkMode] = useDarkMode();
@@ -35,6 +36,7 @@ function App() {
       </main>
 
       <Footer darkMode={darkMode} />
+      <CalendlyBadge />
     </div>
   );
 }

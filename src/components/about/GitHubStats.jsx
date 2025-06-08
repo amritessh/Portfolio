@@ -33,7 +33,7 @@ const GitHubStats = ({ darkMode }) => {
             </p>
             <code className='text-xs break-all'>
               ![GitHub
-              Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
+              Stats](https://github-readme-stats.vercel.app/api?username=amritessh&show_icons=true&theme=dark)
             </code>
           </div>
         </div>
@@ -58,7 +58,7 @@ const GitHubStats = ({ darkMode }) => {
             </p>
             <code className='text-xs break-all'>
               ![Top
-              Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark)
+              Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=amritessh&layout=compact&theme=dark)
             </code>
           </div>
         </div>
