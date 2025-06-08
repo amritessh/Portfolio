@@ -24,14 +24,14 @@ export const experience = [
 
 export const education = {
   degree: 'Master of Science in CSE',
-  school: 'Northeastern University',
+  school: 'Northeastern University (Boston, MA)',
   year: '2024 - 2026',
   details: 'GPA: 3.8/4.0'
 };
 
 export const certifications = [
-  'AWS Certified Solutions Architect',
-  'Google Cloud Professional Developer',
-  'MongoDB Certified Developer',
-  'Meta Frontend Developer Certificate'
+  'Machine Learning by Andrew Ng',
+  'AI Agents by Hugging Face',
+  'Neo4j Fundamentals',
+  'Cisco DevNet Associate'
 ];
