@@ -1,11 +1,7 @@
-module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+export default {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {}
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+  plugins: []
+};
