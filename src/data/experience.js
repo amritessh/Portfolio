@@ -1,32 +1,32 @@
 export const experience = [
   {
-    year: '2023 - Present',
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Solutions Inc.',
+    year: 'Jan 2023 - May 2024',
+    title: 'Software Engineer',
+    company: 'NTT DATA',
     desc:
-      'Lead development of enterprise web applications using React, Node.js, and AWS'
+      'Developed and maintained multiple client projects using modern Java stack'
   },
   {
-    year: '2021 - 2023',
-    title: 'Full Stack Developer',
-    company: 'Digital Innovations',
+    year: 'June 2021 - December 2022',
+    title: 'Associate Software Engineer',
+    company: 'NTT DATA',
     desc:
       'Developed and maintained multiple client projects using modern JavaScript stack'
   },
   {
-    year: '2019 - 2021',
-    title: 'Frontend Developer',
-    company: 'Creative Agency',
+    year: 'Oct 2020 - May 2021',
+    title: 'Graduate Engineering Trainee',
+    company: 'NTT DATA',
     desc:
       'Built responsive web applications and improved site performance by 40%'
   }
 ];
 
 export const education = {
-  degree: 'Bachelor of Computer Science',
-  school: 'Stanford University',
-  year: '2015 - 2019',
-  details: "GPA: 3.8/4.0 • Dean's List • Computer Science Society President"
+  degree: 'Master of Science in CSE',
+  school: 'Northeastern University',
+  year: '2024 - 2026',
+  details: 'GPA: 3.8/4.0'
 };
 
 export const certifications = [

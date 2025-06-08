@@ -10,7 +10,7 @@ const ContactInfo = ({ darkMode }) => {
       viewport={{ once: true }}
     >
       <h3 className='text-2xl font-semibold mb-6'>Let's Connect</h3>
-      <p className={`mb-8 ${darkMode ? 'text-slate-300' : 'text-slate-600'}`}>
+      <p className={`mb-8 ${darkMode ? 'text-slate-900' : 'text-slate-900'}`}>
         I'm always interested in hearing about new projects and opportunities.
         Schedule a call with me to discuss how we can work together!
       </p>

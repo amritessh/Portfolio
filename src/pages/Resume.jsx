@@ -17,7 +17,12 @@ const Resume = ({ darkMode }) => {
           viewport={{ once: true }}
           className='text-center mb-12'
         >
-          <h2 className='text-3xl sm:text-4xl font-bold mb-4'>Resume</h2>
+          <h2 className='text-3xl sm:text-4xl font-bold mb-4'>
+            Resume -{' '}
+            <a href='Amritesh_Anand.pdf' download className='text-blue-600 '>
+              Download PDF
+            </a>
+          </h2>
           <div className='w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto'></div>
         </motion.div>
 
