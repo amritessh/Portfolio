@@ -5,16 +5,18 @@ import SocialLinks from '../common/SocialLinks';
 const ContactInfo = ({ darkMode }) => {
   return (
     <motion.div
+      className='w-screen px-4'
       initial={{ opacity: 0, x: -30 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
     >
-      <h3 className='text-2xl font-semibold mb-6'>Let's Connect</h3>
-      <p className={`mb-8 ${darkMode ? 'text-slate-900' : 'text-slate-900'}`}>
+      <h3 className='text-2xl font-semibold mb-6 leading-relaxed w-full'>
+        Let's Connect
+      </h3>
+      <p className='mb-8 w-full text-slate-900 dark:text-white text-lg'>
         I'm always interested in hearing about new projects and opportunities.
         Schedule a call with me to discuss how we can work together!
       </p>
-
       <div className='space-y-4 mb-8'>
         <div className='flex items-center gap-4'>
           <div className='w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center text-white'>

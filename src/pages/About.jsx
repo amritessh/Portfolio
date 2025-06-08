@@ -9,9 +9,9 @@ const About = ({ darkMode }) => {
   return (
     <section
       id='about'
-      className={`py-20 px-4 ${darkMode ? 'bg-slate-800/50' : 'bg-slate-50'}`}
+      className={`py-20 px-4 ${darkMode ? 'bg-slate-900' : 'bg-white'}`}
     >
-      <div className='max-w-6xl mx-auto'>
+      <div className='max-w-6xl mx-auto flex flex-col gap-y-12'>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -22,10 +22,8 @@ const About = ({ darkMode }) => {
           <div className='w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto'></div>
         </motion.div>
 
-        <div className='grid md:grid-cols-2 gap-12'>
-          <AboutInfo darkMode={darkMode} />
-          <Skills darkMode={darkMode} />
-        </div>
+        <AboutInfo darkMode={darkMode} />
+        <Skills darkMode={darkMode} />
 
         <GitHubStats darkMode={darkMode} />
       </div>

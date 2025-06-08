@@ -1,55 +1,20 @@
-import React from 'react';
-// eslint-disable-next-line no-unused-vars
-import { motion } from 'framer-motion';
+import { Icon } from '@iconify/react';
 import { skills } from '../../data/skills';
 
-const Skills = ({ darkMode }) => {
+export default function Skills() {
   return (
     <div>
       <h3 className='text-2xl font-semibold mb-6'>Technical Skills</h3>
-      <div className='grid grid-cols-2 gap-4'>
-        {skills.map((skill, i) => (
-          <motion.div
-            key={skill.name}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: i * 0.1 }}
-            className={`${
-              darkMode ? 'bg-slate-900/50' : 'bg-white'
-            } p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow`}
-          >
-            <div className='flex items-center justify-between mb-2'>
-              <div className='flex items-center gap-3'>
-                <span className='text-2xl'>{skill.icon}</span>
-                <span className='font-medium'>{skill.name}</span>
-              </div>
-              <span
-                className={`text-sm ${
-                  darkMode ? 'text-slate-400' : 'text-slate-500'
-                }`}
-              >
-                {skill.level}%
-              </span>
-            </div>
-            <div
-              className={`w-full h-2 ${
-                darkMode ? 'bg-slate-800' : 'bg-slate-200'
-              } rounded-full overflow-hidden`}
-            >
-              <motion.div
-                initial={{ width: 0 }}
-                whileInView={{ width: `${skill.level}%` }}
-                viewport={{ once: true }}
-                transition={{ duration: 1, delay: i * 0.1 }}
-                className='h-full bg-gradient-to-r from-blue-600 to-cyan-600'
-              />
-            </div>
-          </motion.div>
+      <div className='flex flex-wrap items-center gap-6 text-4xl'>
+        {skills.map((skill) => (
+          <div className='relative group' key={skill.icon}>
+            <Icon icon={skill.icon} width='2em' />
+            <span className='absolute left-1/2 -translate-x-1/2 bottom-full mb-2 px-2 py-1 rounded bg-black text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none whitespace-nowrap z-10 transition-opacity'>
+              {skill.name}
+            </span>
+          </div>
         ))}
       </div>
     </div>
   );
-};
-
-export default Skills;
+}

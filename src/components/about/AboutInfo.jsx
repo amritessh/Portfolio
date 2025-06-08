@@ -14,9 +14,10 @@ const AboutInfo = ({ darkMode }) => {
           darkMode ? 'text-slate-300' : 'text-slate-600'
         }`}
       >
-        I'm a passionate full-stack developer with over 5 years of experience
-        building web applications. I love turning complex problems into simple,
-        beautiful solutions.
+        I'm a passionate full-stack developer with over 3 years of industry
+        experience building web applications. I love turning complex problems
+        into simple, beautiful solutions. I consider problem solving and
+        critical thinking as my primary strengths.
       </p>
       <p
         className={`mb-6 leading-relaxed ${
@@ -25,8 +26,23 @@ const AboutInfo = ({ darkMode }) => {
       >
         My journey in tech started with curiosity about how things work on the
         internet, and has evolved into a career focused on creating impactful
-        digital experiences.
+        digital experiences. Currently, I am pursuing my Master's degree in
+        Computer Software Engineering at Northeastern University where I am
+        focusing on cutting edge technologies like LLMs, Generative AI, and
+        Cloud Computing.
       </p>
+
+      <p
+        className={`mb-6 leading-relaxed ${
+          darkMode ? 'text-slate-300' : 'text-slate-600'
+        }`}
+      >
+        In my free time, you will find me on a long run 🏃‍♂️ or in the gym lifting
+        weights 🏋️‍♂️, enjoying some Premier League football ⚽️, supporting the OG
+        Red Team ❤️🖤⚽️, or enjoying a F1 GP on a Sunday afternoon 🏁
+        #ForzaFerrari.
+      </p>
+
       <div className='grid grid-cols-2 gap-4'>
         <div>
           <h4 className='font-semibold mb-2'>Interests</h4>
@@ -35,15 +51,15 @@ const AboutInfo = ({ darkMode }) => {
               darkMode ? 'text-slate-400' : 'text-slate-600'
             }`}
           >
-            <li>• Open Source</li>
-            <li>• Machine Learning</li>
-            <li>• Cloud Architecture</li>
-            <li>• UI/UX Design</li>
+            <li>• Artificial Intelligence</li>
+            <li>• Causal Inference</li>
+            <li>• Agentic AI</li>
+            <li>• Technology in Healthcare</li>
           </ul>
         </div>
         <div>
-          <h4 className='font-semibold mb-2'>Languages</h4>
-          <ul
+          {/* <h4 className='font-semibold mb-2'>Languages</h4>
+          {/* <ul
             className={`space-y-1 ${
               darkMode ? 'text-slate-400' : 'text-slate-600'
             }`}
@@ -51,7 +67,8 @@ const AboutInfo = ({ darkMode }) => {
             <li>• English (Native)</li>
             <li>• Spanish (Fluent)</li>
             <li>• French (Basic)</li>
-          </ul>
+          </ul> */}{' '}
+          {/* */}
         </div>
       </div>
     </motion.div>
