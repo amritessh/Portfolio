@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import ProjectCard from '../components/portfolio/ProjectCard';
 import { projects } from '../data/projects';
 
-const Portfolio = ({ darkMode }) => {
+const Projects = ({ darkMode }) => {
   return (
     <section
       id='work'
@@ -17,7 +17,7 @@ const Portfolio = ({ darkMode }) => {
           viewport={{ once: true }}
           className='text-center mb-12'
         >
-          <h2 className='text-3xl sm:text-4xl font-bold mb-4'>Portfolio</h2>
+          <h2 className='text-3xl sm:text-4xl font-bold mb-4'>Projects</h2>
           <div className='w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto'></div>
         </motion.div>
 
@@ -36,4 +36,4 @@ const Portfolio = ({ darkMode }) => {
   );
 };
 
-export default Portfolio;
+export default Projects;

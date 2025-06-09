@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export const useDarkMode = () => {
-  const [darkMode, setDarkMode] = useState(true); // Changed to always start as true
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(
     () => {

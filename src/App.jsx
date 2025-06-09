@@ -3,7 +3,7 @@ import Navbar from './components/common/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/common/Footer';
 import { useDarkMode } from './hooks/useDarkMode';
@@ -31,7 +31,7 @@ function App() {
         <Home darkMode={darkMode} />
         <About darkMode={darkMode} />
         <Resume darkMode={darkMode} />
-        <Portfolio darkMode={darkMode} />
+        <Projects darkMode={darkMode} />
         <Contact darkMode={darkMode} />
       </main>
 

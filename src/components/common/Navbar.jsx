@@ -8,7 +8,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'resume', label: 'Resume' },
-    { id: 'work', label: 'Portfolio' },
+    { id: 'work', label: 'Projects' },
     { id: 'contact', label: 'Contact' }
   ];
 
@@ -51,7 +51,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
               >
                 <span className='hidden sm:inline'>{item.label}</span>
                 <span className='sm:hidden'>
-                  {item.label === 'Portfolio' ? 'Work' : item.label}
+                  {item.label === 'Projects' ? 'Work' : item.label}
                 </span>
                 {activeSection === item.id && (
                   <motion.div

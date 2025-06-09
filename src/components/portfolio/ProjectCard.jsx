@@ -45,14 +45,14 @@ const ProjectCard = ({ project, index, darkMode }) => {
           >
             View Code →
           </a>
-          <a
+          {/* <a
             href={project.demo}
             target='_blank'
             rel='noopener noreferrer'
             className='text-purple-600 hover:text-purple-700 text-sm font-medium'
           >
             Live Demo →
-          </a>
+          </a> */}
         </div>
       </div>
     </motion.div>
