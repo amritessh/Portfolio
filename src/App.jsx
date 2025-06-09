@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/common/Footer';
 import { useDarkMode } from './hooks/useDarkMode';
-import { useScrollspy } from './hooks/useScrollspy';
+import { useScrollspy } from './hooks/useScrollSpy';
 import CalendlyBadge from './components/CalendlyBadge';
 
 function App() {
