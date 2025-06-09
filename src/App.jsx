@@ -9,6 +9,7 @@ import Footer from './components/common/Footer';
 import { useDarkMode } from './hooks/useDarkMode';
 import { useScrollspy } from './hooks/useScrollSpy';
 import CalendlyBadge from './components/CalendlyBadge';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [darkMode, toggleDarkMode] = useDarkMode();
@@ -36,6 +37,7 @@ function App() {
       </main>
 
       <Footer darkMode={darkMode} />
+      <Analytics />
       <CalendlyBadge />
     </div>
   );
