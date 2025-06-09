@@ -28,7 +28,7 @@ const ProfileImage = ({ darkMode }) => {
         >
           {/* Replace with actual image */}
           <img
-            src='IMG_4434.jpg'
+            src='src/IMG_4434.jpg'
             alt='Profile'
             className='w-full h-full object-cover'
             onError={(e) => {

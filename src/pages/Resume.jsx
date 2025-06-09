@@ -19,7 +19,11 @@ const Resume = ({ darkMode }) => {
         >
           <h2 className='text-3xl sm:text-4xl font-bold mb-4'>
             Resume -{' '}
-            <a href='Amritesh_Anand.pdf' download className='text-blue-600 '>
+            <a
+              href='src/Amritesh_Anand.pdf'
+              download
+              className='text-blue-600 '
+            >
               Download PDF
             </a>
           </h2>
