@@ -4,21 +4,21 @@ export const experience = [
     title: 'Software Engineer',
     company: 'NTT DATA',
     desc:
-      'Developed and maintained multiple client projects using modern Java stack'
+      'Developed and maintained multiple client projects using Java, Spring Boot'
   },
   {
     year: 'June 2021 - December 2022',
     title: 'Associate Software Engineer',
     company: 'NTT DATA',
     desc:
-      'Developed and maintained multiple client projects using modern JavaScript stack'
+      'Implemented enterprise communication systems and managed call server databases '
   },
   {
     year: 'Oct 2020 - May 2021',
     title: 'Graduate Engineering Trainee',
     company: 'NTT DATA',
     desc:
-      'Built responsive web applications and improved site performance by 40%'
+      'Trained on various technologies like Python, Networking, PBX and usual IT business processes'
   }
 ];
 
